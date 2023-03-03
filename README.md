@@ -1,2 +1,0 @@
-# KusumlataBookStore
-Project Name: KusumlataBookStore
