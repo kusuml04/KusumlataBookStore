@@ -16,3 +16,10 @@ Action items:
 
 Modify the defaul Welcome Page.
 Review the route pattern 
+
+Stop here my Assignmet 2  ,will continue tomorrow
+
+2023-04-02
+
+continue my Assignment 2      0305
+Clone my Assignmet 2 with github
