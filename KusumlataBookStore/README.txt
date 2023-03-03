@@ -26,3 +26,6 @@ Clone my repository for Assignmet 2 with github
 
 1537  Rename my Readme.txt
 1540 Rename my Readme.txt to README.txt on Github
+
+Create new README.md       1553
+And update README.md
