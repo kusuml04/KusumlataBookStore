@@ -3,6 +3,8 @@
 Started Assignment 2 in-class on the lab computer
 Setup the ASP.NET MVC w core 1.3(out of support)
 HTTPS enabled, individual account authentication ... no Razor...
+
+Create a Repository named as KusumlataBookStore
 Reviewed the Areas folder, Controller, Model and Views
 AND....
 1506.... in startup.cs on the line 33
