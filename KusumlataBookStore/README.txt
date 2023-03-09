@@ -48,7 +48,7 @@ Make some changes in _Layout.cshtml, fowllowing changes I made in _Layout.cshtml
 3. remove text dark from line 23
 4. Add  @await RenderSectionAsync to the footer class
 
-Remove references to text-dark in _LoginPartia.cshtml
+Remove references to text-dark in _LoginPartial.cshtml
 
 
 
