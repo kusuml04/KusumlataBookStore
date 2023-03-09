@@ -35,3 +35,4 @@ And update README.md
 Pause Project  2023-03-03
 
 Start working again my project KusumlataBookStore
+Rename bootstrap.css to oldbootstrap.css
