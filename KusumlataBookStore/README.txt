@@ -31,3 +31,7 @@ Clone my repository for Assignmet 2 with github
 
 Create new README.md       1553
 And update README.md
+
+Pause Project  2023-03-03
+
+Start working again my project KusumlataBookStore
