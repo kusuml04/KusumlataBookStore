@@ -36,3 +36,6 @@ Pause Project  2023-03-03
 
 Start working again my project KusumlataBookStore
 Rename bootstrap.css to oldbootstrap.css
+
+Then visit Bootwatch.com and go through with some themes
+Then select Flatly theme     0238
