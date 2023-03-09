@@ -41,3 +41,5 @@ Then visit Bootwatch.com and go through with some themes
 Then select Flatly theme     0238
 
 Added downloaded bottstrap.css inside wwwroot/lib/bootstap/css/botstrap.css
+
+
