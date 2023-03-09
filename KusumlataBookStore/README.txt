@@ -46,5 +46,9 @@ Make some changes in _Layout.cshtml, fowllowing changes I made in _Layout.cshtml
 1. Rename bootstra.min.css to bootstrap.css
 2. change the nav class from navbar-light to navbar dark and bg-white to bg-primary
 3. remove text dark from line 23
-4. Add  @await RenderSectionAsync to the footer class.
+4. Add  @await RenderSectionAsync to the footer class
+
+Remove references to text-dark in _LoginPartia.cshtml
+
+
 
