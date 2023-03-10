@@ -62,5 +62,11 @@ Added additional stylesheet
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/e19c476714.js"></script>   
 
+    Pause project at 1600
+
+    Start project again at 1943
+
+
+
 
 
