@@ -66,7 +66,7 @@ Added additional stylesheet
 
     Start project again at 1943
 
-
+    Add dropdown to content managemnet inside _Layout.cshtml
 
 
 
