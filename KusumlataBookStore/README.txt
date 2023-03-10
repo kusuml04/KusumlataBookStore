@@ -68,5 +68,8 @@ Added additional stylesheet
 
     Add dropdown to content managemnet inside _Layout.cshtml
 
+    Add new project by sleceting C#
+
+
 
 
