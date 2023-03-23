@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBookStore", "KusumlataBookStore\KusumlataBookStore.csproj", "{D5FF7A3C-5ADE-4E6B-96A2-2A083FACB533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KusumlataBooks.DataAccess", "KusumlataBooks.DataAccess\KusumlataBooks.DataAccess.csproj", "{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBooks.DataAccess", "KusumlataBooks.DataAccess\KusumlataBooks.DataAccess.csproj", "{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KusumlataBooks.DataModels", "KusumlataBooks.DataModels\KusumlataBooks.DataModels.csproj", "{1500A82F-E834-4A43-B45A-158319FCA658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KusumlataBooks.DataUtility", "KusumlataBooks.DataUtility\KusumlataBooks.DataUtility.csproj", "{E329F802-D21C-4987-9126-3B393074FE31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1500A82F-E834-4A43-B45A-158319FCA658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1500A82F-E834-4A43-B45A-158319FCA658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1500A82F-E834-4A43-B45A-158319FCA658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1500A82F-E834-4A43-B45A-158319FCA658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E329F802-D21C-4987-9126-3B393074FE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E329F802-D21C-4987-9126-3B393074FE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E329F802-D21C-4987-9126-3B393074FE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E329F802-D21C-4987-9126-3B393074FE31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
