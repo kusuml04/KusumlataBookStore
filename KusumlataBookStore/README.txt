@@ -73,5 +73,7 @@ Added additional stylesheet
 
     Complete pArt 1    1526
 
+    Move data folder inside KusumlataBooks.DataAccess
+
 
 
