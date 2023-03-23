@@ -77,5 +77,9 @@ Added additional stylesheet
 
     Delete Migration folder From KusumlataBooks.DataAccess/Data
 
+    Change namespace KusumlataBookStore.Data to namespace KusumlataBookStore.DataAccess.Data in ApplicationDbContext.cs in Line #7   
+
+    Delete Class1 from KusumlatBooks.DataAccess,  KusumlatBooks.Models,  KusumlatBooks.Utility
+
 
 
