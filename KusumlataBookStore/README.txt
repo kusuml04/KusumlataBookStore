@@ -73,7 +73,9 @@ Added additional stylesheet
 
     Complete pArt 1    1526
 
-    Move data folder inside KusumlataBooks.DataAccess
+    Move data folder inside KusumlataBooks.DataAccess       1950
+
+    Delete Migration folder From KusumlataBooks.DataAccess/Data
 
 
 
