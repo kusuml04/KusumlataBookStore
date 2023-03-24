@@ -120,8 +120,29 @@ Added additional stylesheet
   Change the Default project name to KusumlataBooks.DataAccess
 
  Run command in Package Manager console
- add-migration AddDefaultIdentityMigration
+ **** add-migration AddDefaultIdentityMigration *****
+ After complete migrations, Update the Databse by run command in colsole  update-databse
 
+ But got errors while update-database           1600
 
+ Severity	Code	Description	Project	File	Line	Suppression State
+1. Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	22	Active
+
+2. Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	56	Active
+3. Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	145	Active
+
+4. Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	145	Active
+
+5. Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	54	Active
+
+6. Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\repos\kusuml04\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	143	Active
+
+    Try to fix errors but did not succeed today   1657
     
+    Pause project at                  2023-03-24  1657  
 
