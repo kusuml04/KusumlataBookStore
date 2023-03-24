@@ -111,7 +111,16 @@ Added additional stylesheet
 
   Delete Controller folder from KusumlataBookStore
 
-  Pause project At   2023-03-023   2045
+  Pause project At   2023-03-23   2045
+
+  ****** Start Assignment Part #2    ***********      2023-03-24     1500
+  Build project    
+  Update database name in appsettings.json
+
+  Change the Default project name to KusumlataBooks.DataAccess
+
+ Run command in Package Manager console
+ add-migration AddDefaultIdentityMigration
 
 
     
