@@ -97,7 +97,9 @@ Added additional stylesheet
         areaName: "Customer",
         pattern: "{controller=Home}/{action=Index}/{id?}");
 
-        MoveHomeController.cs inside Areas/Customer/Controllers
+ MoveHomeController.cs inside Areas/Customer/Controllers
+
+ Move Home Folder inside Areas/Customer/Views
 
 
     
