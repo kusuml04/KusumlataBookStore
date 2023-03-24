@@ -8,4 +8,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KusumlataBooks.DataModels\KusumlataBooks.DataModels.csproj" />
+    <ProjectReference Include="..\KusumlataBooks.DataUtility\KusumlataBooks.DataUtility.csproj" />
+  </ItemGroup>
+
 </Project>
