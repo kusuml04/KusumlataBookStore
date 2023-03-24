@@ -105,6 +105,8 @@ Added additional stylesheet
 
  Copy and Paste _ViewsImports.cshtml and _Viewstart.cshtml in Customer Areas
 
+ Add  Layout = "~/Views/Shared/_Layout.cshtml"  in _ViewStart.cshtml
+
 
     
 
