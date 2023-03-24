@@ -91,3 +91,14 @@ Added additional stylesheet
 
     Add customer area into Areas Folder
 
+  *** Add this code in Startup.cs   in line 63****     2025
+       endpoints.MapAreaControllerRoute(
+        name: "defaultArea",
+        areaName: "Customer",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+
+        MoveHomeController.cs inside Areas/Customer/Controllers
+
+
+    
+

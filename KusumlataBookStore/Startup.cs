@@ -60,9 +60,10 @@ namespace KusumlataBookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");  // This is the default Route Pattern
+                endpoints.MapAreaControllerRoute(
+        name: "defaultArea",
+        areaName: "Customer",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
