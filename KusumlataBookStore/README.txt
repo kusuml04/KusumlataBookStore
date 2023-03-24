@@ -107,6 +107,8 @@ Added additional stylesheet
 
  Add  Layout = "~/Views/Shared/_Layout.cshtml"  in _ViewStart.cshtml
 
+  Copy and Paste _ViewsImports.cshtml and _Viewstart.cshtml in Admin Areas
+
 
     
 
