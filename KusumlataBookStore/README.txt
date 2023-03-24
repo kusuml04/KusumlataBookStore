@@ -87,3 +87,7 @@ Added additional stylesheet
 
     Add SD.cs in KusumlataBooks.DataUtility
 
+    Add public statis property in SD.cs file in line #7
+
+    Add customer area into Areas Folder
+
