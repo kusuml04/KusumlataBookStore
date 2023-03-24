@@ -101,6 +101,10 @@ Added additional stylesheet
 
  Move Home Folder inside Areas/Customer/Views
 
+ Update HomeController.cs by adding namespace KusumlataBookStore.Area.Customer.Controllers
+
+ Copy and Paste _ViewsImports.cshtml and _Viewstart.cshtml in Customer Areas
+
 
     
 
