@@ -81,5 +81,7 @@ Added additional stylesheet
 
     Delete Class1 from KusumlatBooks.DataAccess,  KusumlatBooks.Models,  KusumlatBooks.Utility
 
+    Rename Model folder as ViewModels
 
+    Make some changes in HomeController.cs , Error.cshtml and ErrorViewModel.cs
 
