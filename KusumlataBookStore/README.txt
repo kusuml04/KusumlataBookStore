@@ -109,6 +109,8 @@ Added additional stylesheet
 
   Copy and Paste _ViewsImports.cshtml and _Viewstart.cshtml in Admin Areas
 
+  Delete Controller folder from KusumlataBookStore
+
 
     
 
