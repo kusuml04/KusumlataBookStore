@@ -16,8 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KusumlataBooks.DataAccess\KusumlataBooks.DataAccess.csproj" />
-    <ProjectReference Include="..\KusumlataBooks.DataModels\KusumlataBooks.DataModels.csproj" />
-    <ProjectReference Include="..\KusumlataBooks.DataUtility\KusumlataBooks.DataUtility.csproj" />
+    <ProjectReference Include="..\KusumlataBooks.DataModels\KusumlataBooks.Models.csproj" />
+    <ProjectReference Include="..\KusumlataBooks.DataUtility\KusumlataBooks.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

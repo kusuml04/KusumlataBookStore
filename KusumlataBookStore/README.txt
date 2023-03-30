@@ -114,10 +114,11 @@ Added additional stylesheet
   Pause project At   2023-03-23   2045
 
   ****** Start Assignment Part #2    ***********      2023-03-24     1500
-  Build project    
-  Update database name in appsettings.json
-
-  Change the Default project name to KusumlataBooks.DataAccess
+ 
+ Build project    
+ 
+ Update database name in appsettings.json
+Change the Default project name to KusumlataBooks.DataAccess
 
  Run command in Package Manager console
  **** add-migration AddDefaultIdentityMigration *****
@@ -145,4 +146,10 @@ Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the c
     Try to fix errors but did not succeed today   1657
     
     Pause project at                  2023-03-24  1657  
+
+    Start Project again at           2023-03-30   1500
+
+    After so many tries unable to fix errors 
+
+ 
 

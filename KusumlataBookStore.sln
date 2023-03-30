@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBookStore", "Kusum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBooks.DataAccess", "KusumlataBooks.DataAccess\KusumlataBooks.DataAccess.csproj", "{1F1AC4BA-CC1A-46C0-B91C-A2F191F0F297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KusumlataBooks.DataModels", "KusumlataBooks.DataModels\KusumlataBooks.DataModels.csproj", "{1500A82F-E834-4A43-B45A-158319FCA658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBooks.Models", "KusumlataBooks.DataModels\KusumlataBooks.Models.csproj", "{1500A82F-E834-4A43-B45A-158319FCA658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KusumlataBooks.DataUtility", "KusumlataBooks.DataUtility\KusumlataBooks.DataUtility.csproj", "{E329F802-D21C-4987-9126-3B393074FE31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KusumlataBooks.Utility", "KusumlataBooks.DataUtility\KusumlataBooks.Utility.csproj", "{E329F802-D21C-4987-9126-3B393074FE31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
