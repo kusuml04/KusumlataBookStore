@@ -150,6 +150,16 @@ Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the c
     Start Project again at           2023-03-30   1500
 
     After so many tries unable to fix errors 
+    Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	58	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	24	Active
+Error	CS0103	The name 'SqlServerValueGenerationStrategy' does not exist in the current context	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\20230324193704_AddDefaultIdentityMigration.Designer.cs	147	Active
+Error	CS1061	'object' does not contain a definition for 'IdentityColumn' and no accessible extension method 'IdentityColumn' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?)	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	22	Active
+Error	CS1061	'object' does not contain a definition for 'IdentityColumn' and no accessible extension method 'IdentityColumn' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?)	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	56	Active
+Error	CS1061	'object' does not contain a definition for 'IdentityColumn' and no accessible extension method 'IdentityColumn' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?)	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	145	Active
+
+After tha ADD  (public object SqlServerValueGenerationStrategy { get; private set; })   in line 14  inside ApplicationDbContextModelSnapshot.cs and 20230324193704 Designer.cs
+ 
 
  
 
