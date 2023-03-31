@@ -163,6 +163,7 @@ but still getting error (Value cannot be null)
  Remove the previous changes from ApplicationDbContextModelSnapshot.cs and 20230324193704 Designer.cs
  
  I missed the instruction in which i have to install Microsoft.EntityFrameworkCore.Relation and Core.SQLServer packages then review the slides and install 
- these packages. *****Finally update-database is successfull*******
+ these packages. *****Finally update-database is successfull*******    2023-03-30    2000
  
+ Add Category.cs inside KusumlataBooks.Models   2023-03-31   1102
 
