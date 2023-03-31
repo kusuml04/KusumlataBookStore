@@ -166,4 +166,6 @@ but still getting error (Value cannot be null)
  these packages. *****Finally update-database is successfull*******    2023-03-30    2000
  
  Add Category.cs inside KusumlataBooks.Models   2023-03-31   1102
+ 
+ Run Command add-migration AddCategoryToDb
 
