@@ -176,3 +176,5 @@ Delete AddCategoryToDb.cs  from migration folder
 Add a Repository folder inside KusumlataBooks.DataAccess
 Add a IRepository inside Repository folder                 2023-03-31    1151
 
+Add a class Repository.cs inside Repository folder
+
