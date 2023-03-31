@@ -6,7 +6,7 @@ using System.Text;
 
 namespace KusumlataBooks.DataAccess.Repository
 {
-    public class UnitOfWork//make the method public to access the class
+    public class UnitOfWork: IUnitOfWork//make the method public to access the class
     {
         private readonly ApplicationDbContext _db; //the using statement
         public UnitOfWork(ApplicationDbContext db)// constructor to use DI and inject in to the repositories
@@ -19,6 +19,8 @@ namespace KusumlataBooks.DataAccess.Repository
         public CategoryRespository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
+
+        ICategoryRepository IUnitOfWork.Category => throw new NotImplementedException();
 
         public void Dispose()
         {
