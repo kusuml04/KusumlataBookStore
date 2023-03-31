@@ -193,5 +193,11 @@ Forget to add migration file name that is why adding now
 Migration files name :     20230324193704_AddDefaultIdentityMigration
                            20230331153748_AddCategoryToDb.cs
 
+Facing an error in Startup.cs   
+services.AddScoped<UnitOfWork, UnitOfWork>();  in line 36 . 
+if i am using <IUnitOfWork> in place of UnitOfWork is is showing me an error that is why uanble to complete Part #2 of Assignment #2
+pause project part #2 at 2023-03-31    1515  
+
+
 
 
