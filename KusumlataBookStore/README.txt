@@ -159,7 +159,10 @@ Error	CS1061	'object' does not contain a definition for 'IdentityColumn' and no 
 Error	CS1061	'object' does not contain a definition for 'IdentityColumn' and no accessible extension method 'IdentityColumn' accepting a first argument of type 'object' could be found (are you missing a using directive or an assembly reference?)	KusumlataBooks.DataAccess	C:\Users\W0798437\source\kusuml04\KusumlataBookStore\kusuml04\KusumlataBookStore\KusumlataBooks.DataAccess\Migrations\ApplicationDbContextModelSnapshot.cs	145	Active
 
 After tha ADD  (public object SqlServerValueGenerationStrategy { get; private set; })   in line 14  inside ApplicationDbContextModelSnapshot.cs and 20230324193704 Designer.cs
+but still getting error (Value cannot be null)
+ Remove the previous changes from ApplicationDbContextModelSnapshot.cs and 20230324193704 Designer.cs
  
-
+ I missed the instruction in which i have to install Microsoft.EntityFrameworkCore.Relation and Core.SQLServer packages then review the slides and install 
+ these packages. *****Finally update-database is successfull*******
  
 
