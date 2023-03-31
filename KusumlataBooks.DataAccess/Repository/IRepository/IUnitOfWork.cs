@@ -4,7 +4,10 @@ using System.Text;
 
 namespace KusumlataBooks.DataAccess.Repository.IRepository
 {
-    internal interface IUnitOfWork
+    interface IUnitOfWork : IDisposable
     {
+        ICategoryRepository Category { get; }
+
+        ISP_Call SP_Call { get; }
     }
 }

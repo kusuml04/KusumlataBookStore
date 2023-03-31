@@ -1,3 +1,4 @@
+using KusumlataBooks.DataAccess.Repository;
 using KusumlataBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,7 @@ namespace KusumlataBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() //options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

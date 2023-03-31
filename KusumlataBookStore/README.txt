@@ -188,3 +188,10 @@ Add SP_Call.cs inside Repository folder   2023-03-31      1232
 Modify the SP_Call.cs file    2023-03-31   1239
 
 Add I UnitOfWork.cs interface inside Irepository folder     2023-03-31   1242
+
+Forget to add migration file name that is why adding now 
+Migration files name :     20230324193704_AddDefaultIdentityMigration
+                           20230331153748_AddCategoryToDb.cs
+
+
+
