@@ -198,6 +198,12 @@ services.AddScoped<UnitOfWork, UnitOfWork>();  in line 36 .
 if i am using <IUnitOfWork> in place of UnitOfWork is is showing me an error that is why uanble to complete Part #2 of Assignment #2
 pause project part #2 at 2023-03-31    1515  
 
+**********Start again ***************      2023-03-31        1835
+Add these two following statements inside UnitOfWork.cs  and this error services.AddScoped<UnitOfWork, UnitOfWork>();   in line 36 is solve.
+using KusumlataBooks.DataAccess.Repository.IRepository;
+using KusumlataBookStore.DataAccess.Data;                
+
+Error is solved so pause project again  2023-03-31      1841
 
 
 
