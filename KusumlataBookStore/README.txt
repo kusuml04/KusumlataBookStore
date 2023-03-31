@@ -179,3 +179,6 @@ Add a IRepository inside Repository folder                 2023-03-31    1151
 Add a class Repository.cs inside Repository folder
 Add ICategoryRepository.cs interface inside Irepository folder and CategoryRepsotory..cs class inside Repository folder
 
+Modify CategoryRepository.cs and ICategoryRepository.cs
+
+
