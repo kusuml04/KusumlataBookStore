@@ -173,4 +173,6 @@ but still getting error (Value cannot be null)
   public DbSet<Category> Categories { get; set; }   in line 16
 
 Delete AddCategoryToDb.cs  from migration folder
+Add a Repository folder inside KusumlataBooks.DataAccess
+Add a IRepository inside Repository folder                 2023-03-31    1151
 
