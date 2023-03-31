@@ -169,3 +169,8 @@ but still getting error (Value cannot be null)
  
  Run Command add-migration AddCategoryToDb
 
+ using KusumlataBooks.Models; in line first inside ApplicationDbContext.cs
+  public DbSet<Category> Categories { get; set; }   in line 16
+
+Delete AddCategoryToDb.cs  from migration folder
+
