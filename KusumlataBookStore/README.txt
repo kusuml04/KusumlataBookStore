@@ -205,5 +205,9 @@ using KusumlataBookStore.DataAccess.Data;
 
 Error is solved so pause project again  2023-03-31      1841
 
+*************Start Project again remaining part of Part #2**************       2023-04-06   1417
+
+Add CategoryController.cs   inside  Areas/Admin/Controllers folder       2023-04-06
+
 
 
