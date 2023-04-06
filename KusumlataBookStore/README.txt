@@ -219,5 +219,7 @@ Undo the above line 217 in _Layout.cshtml
 
 Replecae <a class="dropdown-item" href="#">Action</a>  with <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>  in line 39
 
+Facing an error When I am trying to run my project  . My index.cshtml data is not displaying when i am clicking on Category Nav.
+
 
 
