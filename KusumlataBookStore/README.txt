@@ -214,5 +214,9 @@ Modify the CategoryController.cs file by adding code
 Add Category folder inside Areas/Admin/Views         2023-04-06     1500
 Then Add Index.cshtml  inside Category folder
 
+Add <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a> in line 29  in _Layout.cshtml   2023-04-06   1542
+Undo the above line 217 in _Layout.cshtml
+
+Replecae <a class="dropdown-item" href="#">Action</a>  with <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>  in line 39
 
 
