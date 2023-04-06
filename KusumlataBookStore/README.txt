@@ -220,3 +220,4 @@ Undo the above line 217 in _Layout.cshtml
 Replecae <a class="dropdown-item" href="#">Action</a>  with <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>  in line 39
 
 
+
