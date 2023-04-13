@@ -239,4 +239,6 @@ endpoints.MapAreaControllerRoute(
 
    After that Modify the _CreateAndBackToListButton.cshtml,  _EditAndBackToListButton.cshtml  and Upsert.cshtml   2023-04-13    1655
 
+   Add CoverType.cs class inside KusumlataBooks.Models folder      2023-04-13    1858
+
 
