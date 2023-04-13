@@ -1,4 +1,4 @@
-﻿using KusumlataBooks.DataAccess.Repository.IRepository;
+﻿ using KusumlataBooks.DataAccess.Repository.IRepository;
 using KusumlataBooks.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,7 +12,7 @@ namespace KusumlataBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-            public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -26,16 +26,18 @@ namespace KusumlataBookStore.Areas.Admin.Controllers
             Category category = new Category();
             if (id == null)
             {
+                // this is for create
                 return View(category);
             }
-
+            // this is for edit
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
@@ -55,6 +57,9 @@ namespace KusumlataBookStore.Areas.Admin.Controllers
             }
             return View(category);
         }
+
+
+
         // API calls here
         #region API CALLS
         [HttpGet]
@@ -64,6 +69,19 @@ namespace KusumlataBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
-#endregion
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
+        }
+        #endregion
     }
 }
