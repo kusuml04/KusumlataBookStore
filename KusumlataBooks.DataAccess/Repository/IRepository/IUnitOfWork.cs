@@ -9,6 +9,7 @@ namespace KusumlataBooks.DataAccess.Repository.IRepository
         ICategoryRepository Category { get; }
 
         ISP_Call SP_Call { get; }
+        ICoverTypeRepository Cover { get; }
 
         void Save();
     }

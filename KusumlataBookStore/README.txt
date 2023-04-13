@@ -242,3 +242,5 @@ endpoints.MapAreaControllerRoute(
    Add CoverType.cs class inside KusumlataBooks.Models folder      2023-04-13    1858
    Add ICoverTypeRepository.cs interface inside IRepository folder    2023-04-13    1910
 
+   Modify the code of UnitOfWork.cs and IUnitOfWork.cs  file    2023-04-13   1954
+

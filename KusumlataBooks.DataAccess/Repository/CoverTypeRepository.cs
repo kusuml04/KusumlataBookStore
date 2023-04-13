@@ -1,9 +1,15 @@
 ﻿using KusumlataBooks.DataAccess.Repository.IRepository;
 using KusumlataBooks.Models;
-using KusumlataBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using KusumlataBookStore.DataAccess.Data;
+
+using KusumlataBooks.DataAccess.Repository;
+
+
 
 namespace KusumlataBooks.DataAccess.Repository
 {
