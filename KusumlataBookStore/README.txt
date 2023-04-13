@@ -234,4 +234,7 @@ endpoints.MapAreaControllerRoute(
 
     Modify CategoryController.cs     2023-04-13       1533
 
+    Add _CreateAndBackToListButton.cshtml inside Shared folder
+   Add  _EditAndBackToListButton.cshtml inside Shared folder
+
 
