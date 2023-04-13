@@ -221,5 +221,15 @@ Replecae <a class="dropdown-item" href="#">Action</a>  with <a class="dropdown-i
 
 Facing an error When I am trying to run my project  . My index.cshtml data is not displaying when i am clicking on Category Nav.
 
+Add this in Startup.cs file (in line 72 to 76)           2023-04-13     1424
+endpoints.MapAreaControllerRoute(
+        name: "defaultArea",
+        areaName: "Admin",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
+
+    And now error is slved and category list is showing
+
+    Add category.js inside wwwroot folder.
 
 
