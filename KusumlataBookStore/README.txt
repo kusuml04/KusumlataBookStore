@@ -237,4 +237,6 @@ endpoints.MapAreaControllerRoute(
     Add _CreateAndBackToListButton.cshtml inside Shared folder
    Add  _EditAndBackToListButton.cshtml inside Shared folder
 
+   After that Modify the _CreateAndBackToListButton.cshtml,  _EditAndBackToListButton.cshtml  and Upsert.cshtml   2023-04-13    1655
+
 
