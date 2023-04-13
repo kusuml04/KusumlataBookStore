@@ -232,4 +232,6 @@ endpoints.MapAreaControllerRoute(
 
     Add category.js inside wwwroot folder.
 
+    Modify CategoryController.cs     2023-04-13       1533
+
 
