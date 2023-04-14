@@ -241,9 +241,11 @@ endpoints.MapAreaControllerRoute(
 
   Facing an error, when i am adding data it is now showing on my Category List.
   
-  ************************* Complete  Assignment Part #2   ***************************    2023-04-13      1800
+  ************************* Complete  Assignment Part #2   ***************************   
+  2023-04-13      1800
   
-  *************************Start Assignment Part #3   **************************   2023-04-13      1830
+  *************************Start Assignment Part #3   **************************   
+  2023-04-13      1830
 
 
   Add CoverType.cs class inside KusumlataBooks.Models folder      2023-04-13    1858
