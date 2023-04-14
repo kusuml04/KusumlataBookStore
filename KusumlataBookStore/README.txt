@@ -243,4 +243,6 @@ endpoints.MapAreaControllerRoute(
    Add ICoverTypeRepository.cs interface inside IRepository folder    2023-04-13    1910
 
    Modify the code of UnitOfWork.cs and IUnitOfWork.cs  file    2023-04-13   1954
-
+  
+  Run Command in console add-migration AddCoverTypeToDb   2023-04-13    2025
+  Add CoverTypeController.cs   inside Areas/Admin/Conroller

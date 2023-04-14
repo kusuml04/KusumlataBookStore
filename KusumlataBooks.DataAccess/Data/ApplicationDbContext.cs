@@ -16,9 +16,6 @@ namespace KusumlataBookStore.DataAccess.Data
         public DbSet<Category> Categories { get; set; }
         public object Covers { get; internal set; }
 
-        internal object Covers(Func<object, bool> value)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

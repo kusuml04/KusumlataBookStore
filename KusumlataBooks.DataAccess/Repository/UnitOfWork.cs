@@ -3,7 +3,8 @@ using KusumlataBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using TaranvirBooks.DataAccess.Repository;
+using KusumlataBooks.DataAccess.Repository;
+using KusumlataBookStore.DataAccess.Repository;
 
 namespace KusumlataBooks.DataAccess.Repository
 {
