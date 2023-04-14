@@ -278,4 +278,7 @@ endpoints.MapAreaControllerRoute(
   Update the product by adding condition of [Required] to Title, ISBN and Author filed
 
   Run the command in console add-migration addValidationToProduct to validate data 
-  and then update-database
+  and then update-database 
+
+  create interface named as IproductRepository.cs inside Repository folder.    2023-04-14    1132
+  And then modify the IRepository.cs file
