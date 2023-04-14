@@ -265,3 +265,4 @@ endpoints.MapAreaControllerRoute(
   and showing an error on line 23
 
   Add a new class Product.cs inside KusumlataBooks.Models project   2023-04-14    2216
+  Modify the code of Product.cs
