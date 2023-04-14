@@ -17,6 +17,7 @@ namespace KusumlataBooks.DataAccess.Repository
             Category = new CategoryRespository(_db);
             SP_Call = new SP_Call(_db);
             Cover = new CoverTypeRepository(_db);
+            ProductRepository = new ProductRepository(_db);
 
 
         }
@@ -25,6 +26,8 @@ namespace KusumlataBooks.DataAccess.Repository
 
         public ISP_Call SP_Call { get; private set; }
         public ICoverTypeRepository Cover { get; private set; }
+        public ProductRepository ProductRepository { get; }
+        public IProductRepository Product { get; private set; }
 
         public void Dispose()
         {

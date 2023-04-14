@@ -286,4 +286,9 @@ endpoints.MapAreaControllerRoute(
   Create a class inside Repository folder named as ProductRepository.cs
 
   Update the code of Productrepository.cs file   
+ 
  Add this line  IProductRepository Product { get; } in IUnitOfWork to add product in  IUnitOfWork   2023-04-14   1207
+
+  Add these lines in UnitOfWork.cs to add product in this file
+  ProductRepository = new ProductRepository(_db);  (line 20)
+  public IProductRepository Product { get; private set; }  (line 30)
