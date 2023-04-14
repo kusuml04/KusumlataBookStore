@@ -263,3 +263,5 @@ endpoints.MapAreaControllerRoute(
   
   Facing an an error when i am trying to run my application when i an clicking on add new category in Covertype nav it directs me to Repository.cs 
   and showing an error on line 23
+
+  Add a new class Product.cs inside KusumlataBooks.Models project   2023-04-14
