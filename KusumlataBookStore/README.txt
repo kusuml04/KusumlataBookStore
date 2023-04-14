@@ -274,3 +274,5 @@ endpoints.MapAreaControllerRoute(
   Time stamp for addCoverTypeToDb   20230414002243_AddCoverTypeToDb.cs
   
   Time stamp for addproductToDb  20230414144340_addProductToDb.cs    2023-04-14    1046
+
+  Update the product by adding condition of [Required] to Title, ISBN and Author filed
