@@ -238,6 +238,8 @@ endpoints.MapAreaControllerRoute(
    Add  _EditAndBackToListButton.cshtml inside Shared folder
 
    After that Modify the _CreateAndBackToListButton.cshtml,  _EditAndBackToListButton.cshtml  and Upsert.cshtml   2023-04-13    1655
+
+  Facing an error, when i am adding data it is now shoing on my Category List.
   
   ************************* Complete  Assignment Part #2   ***************************    2023-04-13      1800
   
@@ -258,3 +260,6 @@ endpoints.MapAreaControllerRoute(
   Add  <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">CoverType</a> in _Layout.cshtml in line 41
 
   Then Add Cover.js file inside wwwroot/js       2023-04-13    2100
+  
+  Facing an an error when i am trying to run my application when i an clicking on add new category in Covertype nav it directs me to Repository.cs 
+  and showing an error on line 23
