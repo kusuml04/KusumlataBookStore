@@ -294,3 +294,5 @@ endpoints.MapAreaControllerRoute(
   public IProductRepository Product { get; private set; }  (line 30)
 
   Add ProductController in controller folder   2023-04-14   1229
+
+  Add product.js in wwwroot/js folder
