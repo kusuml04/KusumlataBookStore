@@ -296,3 +296,5 @@ endpoints.MapAreaControllerRoute(
   Add ProductController in controller folder   2023-04-14   1229
 
   Add product.js in wwwroot/js folder
+
+  Modify the Index.cshtml file by adding entries.
