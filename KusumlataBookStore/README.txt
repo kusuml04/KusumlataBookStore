@@ -238,11 +238,23 @@ endpoints.MapAreaControllerRoute(
    Add  _EditAndBackToListButton.cshtml inside Shared folder
 
    After that Modify the _CreateAndBackToListButton.cshtml,  _EditAndBackToListButton.cshtml  and Upsert.cshtml   2023-04-13    1655
+  
+  ************************* Complete  Assignment Part #2   ***************************    2023-04-13      1800
+  
+  *************************Start Assignment Part #3   **************************   2023-04-13      1830
 
-   Add CoverType.cs class inside KusumlataBooks.Models folder      2023-04-13    1858
+
+  Add CoverType.cs class inside KusumlataBooks.Models folder      2023-04-13    1858
    Add ICoverTypeRepository.cs interface inside IRepository folder    2023-04-13    1910
 
    Modify the code of UnitOfWork.cs and IUnitOfWork.cs  file    2023-04-13   1954
   
   Run Command in console add-migration AddCoverTypeToDb   2023-04-13    2025
   Add CoverTypeController.cs   inside Areas/Admin/Conroller
+
+  Create New folder named as CoverType inside Views folder  and then copy and paste
+  Index.cshtmla and Upsert.cshtml from Category folder      2023-04-13    2043
+
+  Add  <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">CoverType</a> in _Layout.cshtml in line 41
+
+  Then Add Cover.js file inside wwwroot/js       2023-04-13    2100
