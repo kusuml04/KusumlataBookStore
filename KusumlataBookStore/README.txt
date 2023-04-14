@@ -282,3 +282,5 @@ endpoints.MapAreaControllerRoute(
 
   create interface named as IproductRepository.cs inside Repository folder.    2023-04-14    1132
   And then modify the IRepository.cs file
+
+  Create a class inside Repository folder named as ProductRepository.cs
