@@ -292,3 +292,5 @@ endpoints.MapAreaControllerRoute(
   Add these lines in UnitOfWork.cs to add product in this file
   ProductRepository = new ProductRepository(_db);  (line 20)
   public IProductRepository Product { get; private set; }  (line 30)
+
+  Add ProductController in controller folder   2023-04-14   1229
