@@ -276,3 +276,6 @@ endpoints.MapAreaControllerRoute(
   Time stamp for addproductToDb  20230414144340_addProductToDb.cs    2023-04-14    1046
 
   Update the product by adding condition of [Required] to Title, ISBN and Author filed
+
+  Run the command in console add-migration addValidationToProduct to validate data 
+  and then update-database
