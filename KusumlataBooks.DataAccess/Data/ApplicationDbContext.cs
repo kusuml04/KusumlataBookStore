@@ -14,7 +14,7 @@ namespace KusumlataBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet <CoverType>CoverTypes { get;  set; }
+        public object Covers { get; internal set; }
         public DbSet<Product> Products { get; set; }    //adding procuts to the DB
 
         

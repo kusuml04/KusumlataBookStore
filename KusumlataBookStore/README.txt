@@ -266,3 +266,11 @@ endpoints.MapAreaControllerRoute(
 
   Add a new class Product.cs inside KusumlataBooks.Models project   2023-04-14    2216
   Modify the code of Product.cs
+
+  Add reference to the new Products piece to the database in the ApplicationDbContext.cs file   2023-04-14    1038
+
+  Time stamp for  add CayegoryToDb  20230331153748_AddCategoryToDb.cs
+   
+   Time stamp for addCoverTypeToDb   20230414002243_AddCoverTypeToDb.cs
+  
+  Time stamp for addproductToDb  20230414144340_addProductToDb.cs    2023-04-14    1046
