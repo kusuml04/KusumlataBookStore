@@ -239,7 +239,7 @@ endpoints.MapAreaControllerRoute(
 
    After that Modify the _CreateAndBackToListButton.cshtml,  _EditAndBackToListButton.cshtml  and Upsert.cshtml   2023-04-13    1655
 
-  Facing an error, when i am adding data it is now shoing on my Category List.
+  Facing an error, when i am adding data it is now showing on my Category List.
   
   ************************* Complete  Assignment Part #2   ***************************    2023-04-13      1800
   
@@ -298,3 +298,14 @@ endpoints.MapAreaControllerRoute(
   Add product.js in wwwroot/js folder
 
   Modify the Index.cshtml file by adding entries.
+  Modify the upsert.cshtml file inside Product folder
+  and change add my name in this line @model KusumlataBooks.Models.CoverType    2023-04-14    1338
+
+  My error is sloved automatically  that i meantioned in line 264 in README.txt  when i continue further steps
+  but data is still not showing.
+
+ 
+
+
+
+
