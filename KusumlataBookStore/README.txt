@@ -271,6 +271,6 @@ endpoints.MapAreaControllerRoute(
 
   Time stamp for  add CayegoryToDb  20230331153748_AddCategoryToDb.cs
    
-   Time stamp for addCoverTypeToDb   20230414002243_AddCoverTypeToDb.cs
+  Time stamp for addCoverTypeToDb   20230414002243_AddCoverTypeToDb.cs
   
   Time stamp for addproductToDb  20230414144340_addProductToDb.cs    2023-04-14    1046
