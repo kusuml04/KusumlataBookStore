@@ -310,6 +310,13 @@ endpoints.MapAreaControllerRoute(
 
  ********** Complete Assignment 2 Part #3 ************  2023-04-14     1342
 
+ I added these lines in Startup.cs and now my created entries are showing for
+ CoverList.
+ endpoints.MapControllerRoute(
+                     name: "default",
+                     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
+
  
 
 
