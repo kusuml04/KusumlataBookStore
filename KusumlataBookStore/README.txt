@@ -415,6 +415,10 @@ endpoints.MapRazorPages();
 Facing erros in further parts, creating entries are not showing for Category, so stoping application here.
 But in future i will surely complete this application.
 
+2023-04-21
+1543...
+Submitting my Assignment #2
+
 
 
 
