@@ -410,6 +410,14 @@ name: "default",
 pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 endpoints.MapRazorPages();
 
+2023-04-21
+1537...
+Facing erros in further parts, creating entries are not showing for Category, so stoping application here.
+But in future i will surely complete this application.
+
+
+
+
  
 
 
